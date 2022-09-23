@@ -1,0 +1,9 @@
+City, Province, A-Class
+Suzhou, JiangSu, 1
+Wuxi, JiangSu, 0
+Changzhou, JiangSu, 0
+Zhenjiang, JiangSu, 0
+Nanjing, JiangSu, 1
+Yangzhou, JiangSu, 0
+JiNan,ShangDong, 0
+Qingdao,ShangDong, 1
