@@ -1,0 +1,609 @@
+数据字段
+
+以下是在数据描述文件中找到的简要版本。
+
+SalePrice - 该物业的售价以美元计。这是您想要预测的目标变量。
+MSSubClass：建筑类
+MSZoning：一般分区分类
+LotFrontage：与街道连接的线性脚
+LotArea：地块面积（平方英尺）
+街道：道路通行类型
+胡同：胡同访问的类型
+LotShape：财产的一般形状
+LandContour：物业的平整度
+实用程序：可用的实用程序类型
+LotConfig：批量配置
+LandSlope：财产的倾斜
+邻里：Ames城市限制内的物理位置
+条件1：靠近主干道或铁路
+条件2：靠近主要道路或铁路（如果有一秒）
+BldgType：住宅类型
+HouseStyle：住宅风格
+OverallQual：总体材料和加工质量
+OverallCond：总体状况的评价
+年份：原始施工日期
+YearRemodAdd：重构日期
+RoofStyle：屋顶类型
+RoofMatl：屋顶材料
+Exterior1st：房屋外墙
+Exterior2nd：房屋外墙（如果多于一种）
+MasVnrType：砖石类型
+MasVnrArea：砖石面积平方英尺
+ExterQual：外观材质
+ExterCond：外部材料的现状
+基础：基础类型
+BsmtQual：地下室的高度
+BsmtCond：地下室的一般状况
+Bsmt曝光：罢工或花园级地下室的墙壁
+BsmtFinType1：地下室成品面积质量
+BsmtFinSF1：1型方形脚
+BsmtFinType2：第二完成区域的质量（如果存在）
+BsmtFinSF2：2型完成平方英尺
+BsmtUnfSF：未完成的地下室面积
+TotalBsmtSF：地下室面积的平方英尺
+加热：加热类型
+HeatingQC：供热质量和条件
+CentralAir：中央空调
+电气：电气系统
+1stFlrSF：一楼平方英尺
+2ndFlrSF：二楼平方英尺
+LowQualFinSF：低质量完成的平方英尺（所有楼层）
+GrLivArea：以上（地面）居住面积平方英尺
+BsmtFullBath：地下室完整的浴室
+BsmtHalfBath：地下室半浴室
+FullBath：全年以上的浴室
+HalfBath：半浴室级以上
+卧室：地下室数量
+厨房：厨房数量
+KitchenQual：厨房质量
+TotRmsAbvGrd：房间总数（不含浴室）
+功能：家庭功能评级
+壁炉：壁炉数量
+FireplaceQu：壁炉质量
+车库类型：车库位置
+GarageYrBlt：年建车库
+GarageFinish：车库内部装修
+车库：车库的车库容量
+GarageArea：平方英尺车库大小
+GarageQual：车库质量
+GarageCond：车库条件
+PavedDrive：铺设的车道
+WoodDeckSF：木甲板面积平方英尺
+OpenPorchSF：平方英尺开放门廊
+EnclosedPorch：封闭的门廊面积平方英尺
+3SsnPorch：三季门廊面积平方英尺
+ScreenPorch：屏幕门廊面积平方英尺
+PoolArea：游泳池面积平方英尺
+PoolQC：游泳池质量
+围栏：围栏质量
+MiscFeature：杂项功能未包括在其他类别
+MiscVal：$杂项功能的值
+MoSold：月销售
+YrSold：年销售
+SaleType：销售类型
+SaleCondition：销售条件
+
+================
+MSSubClass：确定出售涉及的住宅类型。	
+
+        20 1-STORY 1946和NEWER ALL STYLES
+        30 1-STORY 1945＆OLDER
+        40 1-故事/完成所有年龄
+        45 1-1 / 2故事 - 不了解所有年龄
+        50 1-1 / 2故事完成所有年龄
+        60 2-STORY 1946＆NEWER
+        70 2-STORY 1945＆OLDER
+        75 2-1 / 2故事所有年龄
+        80分或多级
+        85分享FOYER
+        90双打 - 所有样式和年龄
+       120 1-STORY PUD（计划单位开发） -  1946＆NEWER
+       150 1-1 / 2故事PUD  - 所有年龄
+       160 2-STORY PUD  -  1946＆NEWER
+       180 PUD  -  MULTILEVEL  -  INCL SPLIT LEV / FOYER
+       190 2家庭转换 - 所有的样式和年龄
+
+MSZoning：确定销售的一般分区分类。
+		
+       农业
+       C商业
+       FV浮动村住宅
+       我工业
+       RH住宅高密度
+       RL住宅低密度
+       RP住宅低密度公园 
+       RM住宅中等密度
+	
+LotFrontage：与街道连接的线性脚
+
+LotArea：地块面积（平方英尺）
+
+街道：通往物业的道路通行类型
+
+       Grvl Gravel	
+       铺路铺
+       	
+胡同：胡同进入财产的类型
+
+       Grvl Gravel
+       铺路铺
+       NA没有胡同访问
+		
+LotShape：财产的一般形状
+
+       注册常规	
+       IR1稍微不规则
+       IR2中等不规则
+       IR3不规则
+       
+LandContour：物业的平整度
+
+       Lvl接近平/级	
+       Bnk Banked  - 从街道到建筑物的快速而显着的上升
+       HLS山坡 - 从一侧到另一侧有显着的坡度
+       低抑郁症
+		
+实用程序：可用的实用程序类型
+		
+       AllPub所有公共工具（E，G，W和＆S）	
+       NoSewr电力，燃气和水（化粪池）
+       NoSeWa仅限电力和煤气
+       ELO电力只	
+	
+LotConfig：批量配置
+
+       里面很多
+       角角很多
+       CulDSac Cul-de-sac
+       FR2正面两面的财产
+       FR3正面3面的财产
+	
+LandSlope：财产的倾斜
+		
+       Gtl温和的斜坡
+       Mod中等斜率	
+       Sev严重斜坡
+	
+邻里：Ames城市限制内的物理位置
+
+       布鲁明顿高地
+       蓝调蓝调
+       BrDale Briardale
+       布鲁克滨
+       ClearCr Clear Creek
+       CollgCr College Creek
+       Crawfor Crawford
+       爱德华兹爱德华兹
+       吉尔伯特·吉尔伯特
+       IDOTRR爱荷华州DOT和铁路公路
+       MeadowV草甸村
+       米切尔·米切尔
+       命名北阿姆斯
+       诺里奇北岭
+       NPkVill Northpark别墅
+       NridgHt Northridge Heights
+       NWAmes西北阿姆斯
+       老城老城区
+       爱荷华州立大学SWISU南西部
+       Sawyer Sawyer
+       SawyerW Sawyer West
+       Somerst萨默塞特
+       StoneBr石溪
+       木材Timberland
+       Veenker Veenker
+			
+条件1：接近各种条件
+	
+       动脉相邻动脉街
+       饲料相邻饲养街	
+       规范正常	
+       南北铁路200公里以内
+       毗邻南北铁路
+       PosN靠近正面的异地功能 - 公园，绿地等
+       PosA毗邻站点外的特色功能
+       东西铁路200多公里
+       毗邻东西铁路
+	
+条件2：接近各种条件（如果存在多于一个）
+		
+       动脉相邻动脉街
+       饲料相邻饲养街	
+       规范正常	
+       南北铁路200公里以内
+       毗邻南北铁路
+       PosN靠近正面的异地功能 - 公园，绿地等
+       PosA毗邻站点外的特色功能
+       东西铁路200多公里
+       毗邻东西铁路
+	
+BldgType：住宅类型
+		
+       1Fam单户独立式	
+       2FmCon两族转换; 最初建成的是一个家庭住宅
+       Duplx双工
+       TwnhsE联排别墅
+       TwnhsI联排别墅内
+	
+HouseStyle：住宅风格
+	
+       一个故事
+       1.5Fin一个半故事：二级完成
+       1.5Unf一个半故事：二级未完成
+       2主题两个故事
+       2.5Fin两个半故事：二级完成
+       2.5Unf两个半故事：二级未完成
+       SFoyer拆分门厅
+       SLvl拆分级别
+	
+总体价格：房屋的整体材料和整理价格
+
+       10非常好
+       9优秀
+       8很好
+       7好
+       6高于平均水平
+       5平均
+       4低于平均水平
+       3公平
+       2差
+       1很差
+	
+总价：房价的整体情况
+
+       10非常好
+       9优秀
+       8很好
+       7好
+       6高于平均水平	
+       5平均
+       4低于平均水平	
+       3公平
+       2差
+       1很差
+		
+年份：原始施工日期
+
+YearRemodAdd：重构日期（如果没有重构或添加，则与构建日期相同）
+
+屋顶类型：屋顶类型
+
+       扁平
+       山墙山墙
+       Gambrel Gabrel（谷仓）
+       髋关节
+       曼萨德曼萨德
+       棚棚
+		
+屋顶材料：屋顶材料
+
+       ClyTile粘土或瓷砖
+       CompShg标准（复合）瓦片
+       膜膜
+       金属金属
+       卷卷
+       Tar＆Grv砾石和焦油
+       WdShake Wood Shakes
+       WdShngl木瓦
+		
+Exterior1st：房屋外墙
+
+       AsbShng石棉瓦
+       AsphShn沥青瓦
+       BrkComm砖普通
+       BrkFace砖脸
+       CBlock煤渣块
+       CemntBd水泥板
+       HdBoard硬盘
+       ImStucc模仿灰泥
+       MetalSd金属板
+       其他其他
+       胶合板胶合板
+       PreCast PreCast	
+       石头石
+       灰泥灰泥
+       乙烯基乙烯基墙板
+       Wd Sdng木工棚
+       WdShing木瓦
+	
+Exterior2nd：房屋外墙（如果多于一种）
+
+       AsbShng石棉瓦
+       AsphShn沥青瓦
+       BrkComm砖普通
+       BrkFace砖脸
+       CBlock煤渣块
+       CemntBd水泥板
+       HdBoard硬盘
+       ImStucc模仿灰泥
+       MetalSd金属板
+       其他其他
+       胶合板胶合板
+       PreCast PreCast
+       石头石
+       灰泥灰泥
+       乙烯基乙烯基墙板
+       Wd Sdng木工棚
+       WdShing木瓦
+	
+MasVnrType：砖石类型
+
+       BrkCmn砖普通
+       BrkFace砖脸
+       CBlock煤渣块
+       无无
+       石头石
+	
+MasVnrArea：砖石面积平方英尺
+
+ExterQual：评估外部材料的质量 
+		
+       优秀
+       钆好
+       TA平均/典型
+       法博会
+       宝可怜
+		
+ExterCond：评估外部材料的现状
+		
+       优秀
+       钆好
+       TA平均/典型
+       法博会
+       宝可怜
+		
+基础：基础类型
+		
+       BrkTil砖瓦
+       CBlock煤渣块
+       PConc Poured Contrete	
+       平板板
+       石头石
+       木木
+		
+BsmtQual：评估地下室的高度
+
+       优秀（100+英寸）	
+       钆好（90-99吋）
+       TA典型（80-89英寸）
+       法展（70-79英寸）
+       宝贫（<70英寸
+       没有地下室
+		
+BsmtCond：评估地下室的一般状况
+
+       优秀
+       钆好
+       TA典型 - 允许轻微的潮湿
+       公平 - 潮湿或有些开裂或沉降
+       宝贫 - 严重开裂，沉降或潮湿
+       没有地下室
+	
+Bsmt曝光：指罢工或花园水平的墙壁
+
+       Gd良好的曝光
+       平均曝光率（分数水平或门厅平均或以上）	
+       Mn最小曝光
+       没有没有曝光
+       没有地下室
+	
+BsmtFinType1：地下室成品面积评级
+
+       GLQ好生活区
+       ALQ平均生活区
+       BLQ低于平均生活区	
+       建议平均会议室
+       LwQ质量低
+       Unfedhinghed
+       没有地下室
+		
+BsmtFinSF1：1型方形脚
+
+BsmtFinType2：地下室成品面积的评级（如果有多种类型）
+
+       GLQ好生活区
+       ALQ平均生活区
+       BLQ低于平均生活区	
+       建议平均会议室
+       LwQ质量低
+       Unfedhinghed
+       没有地下室
+
+BsmtFinSF2：2型完成平方英尺
+
+BsmtUnfSF：未完成的地下室面积
+
+TotalBsmtSF：地下室面积的平方英尺
+
+加热：加热类型
+		
+       地板炉
+       GasA气体强制暖风炉
+       GasW气体热水或蒸汽热
+       Grav重力炉	
+       OthW热水或除气体以外的蒸汽热
+       墙壁炉
+		
+加热质量：加热质量和条件
+
+       优秀
+       钆好
+       TA平均/典型
+       法博会
+       宝可怜
+		
+中央空调：中央空调
+
+       N号
+       是的
+		
+电气：电气系统
+
+       SBrkr标准断路器与Romex
+       保险丝保险丝盒超过60 AMP和所有Romex接线（平均）	
+       FuseF 60 AMP保险丝盒和大多数Romex接线（公平）
+       FuseP 60 AMP保险丝盒，主要是旋钮和管接线（差）
+       混合混合
+		
+1stFlrSF：一楼平方英尺
+ 
+2ndFlrSF：二楼平方英尺
+
+LowQualFinSF：低质量完成的平方英尺（所有楼层）
+
+GrLivArea：以上（地面）居住面积平方英尺
+
+BsmtFullBath：地下室完整的浴室
+
+BsmtHalfBath：地下室半浴室
+
+FullBath：全年以上的浴室
+
+半浴：半浴半高
+
+卧室：高档卧室（不包括地下室）
+
+厨房：高档厨房
+
+厨房质量：厨房质量
+
+       优秀
+       钆好
+       TA典型/平均
+       法博会
+       宝可怜
+       	
+TotRmsAbvGrd：房间总数（不含浴室）
+
+功能：家庭功能（假设典型，除非扣除）
+
+       典型典型功能
+       Min1次要扣除1
+       Min2次要扣除2
+       Mod Modedate扣除
+       Maj1主要扣除1
+       Maj2主要扣除2
+       Sev严重损坏
+       仅Sal Salage
+		
+壁炉：壁炉数量
+
+FireplaceQu：壁炉质量
+
+       优秀 - 超凡的砌体壁炉
+       Gd Good  - 砌体壁炉在主要水平
+       TA平均 - 主要生活区预制壁炉或地下室的砖石壁炉
+       Fa Fair  - 地下室预制壁炉
+       宝贫 - 本·富兰克林炉
+       NA没有壁炉
+		
+车库类型：车库位置
+		
+       2种类型的车库
+       Attchd附在家里
+       地下室车库
+       建筑内置（车库部分 - 通常在车库以上）
+       CarPort汽车港
+       Detchd独立自家
+       没有车库
+		
+GarageYrBlt：年建车库
+		
+GarageFinish：车库内部装修
+
+       翅完了
+       RFn粗糙完成	
+       未完成
+       没有车库
+		
+车库：车库的车库容量
+
+车库面积：平方英尺的车库尺寸
+
+车库质量：车库质量
+
+       优秀
+       钆好
+       TA典型/平均
+       法博会
+       宝可怜
+       没有车库
+		
+车库：车库条件
+
+       优秀
+       钆好
+       TA典型/平均
+       法博会
+       宝可怜
+       没有车库
+		
+PavedDrive：铺设的车道
+
+       Y铺 
+       P部分路面
+       N泥土/砾石
+		
+WoodDeckSF：木甲板面积平方英尺
+
+OpenPorchSF：平方英尺开放门廊
+
+EnclosedPorch：封闭的门廊面积平方英尺
+
+3SsnPorch：三季门廊面积平方英尺
+
+ScreenPorch：屏幕门廊面积平方英尺
+
+游泳池面积：平方英尺的泳池面积
+
+PoolQC：游泳池质量
+		
+       优秀
+       钆好
+       TA平均/典型
+       法博会
+       没有池
+		
+围栏：围栏质量
+		
+       GdPrv很好的隐私
+       MnPrv最低限度隐私
+       GdWo好木
+       MnWw最小木/线
+       没有围栏
+	
+杂项功能：其他类别中未涉及的其他功能
+		
+       电梯电梯
+       Gar2 2nd车库（如果没有在车库部分描述）
+       Othr其他
+       棚棚（超过100 SF）
+       TenC网球场
+       NA无
+		
+MiscVal：$杂项功能的值
+
+MoSold：月销售量（MM）
+
+YrSold：年销售量（YYYY）
+
+SaleType：销售类型
+		
+       WD保修条款 - 常规
+       CWD保修契据 - 现金
+       VWD保证契据 -  VA贷款
+       新家刚刚建成并出售
+       COD法庭法官
+       承包合同15％定期付款
+       ConLw合约低预付款和低利息
+       ConLI合约低息
+       ConLD合约低位
+       其他其他
+		
+SaleCondition：销售条件
+
+       正常正常销售
+       异常销售 - 交易，止赎，卖空
+       AdjLand相邻土地购买
+       Alloca分配 - 两个链接的属性与单独的行为，通常与车库单位	
+       家庭成员之间的家庭出售
+       最后一次评估时，部分家庭没有完成（与新家有关）

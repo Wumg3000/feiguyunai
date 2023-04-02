@@ -1,0 +1,24 @@
+CREATE TABLE stud_info (
+       stud_code varchar(20) NOT NULL,
+       stud_name varchar(100) NOT NULL,
+       stud_sex char(1) NOT NULL default 'M' COMMENT '性别',
+       birthday date default NULL,
+       log_date date default NULL,
+       orig_addr varchar(100) default NULL,
+       lev_date date default NULL,
+       college_code varchar(10) default NULL COMMENT '学院编码',
+       college_name varchar(100) default NULL,
+       state varchar(10) default NULL,
+       PRIMARY KEY  (stud_code)
+      ) ;
+
+
+CREATE TABLE  stud_score  (
+   stud_code  varchar(20) NOT NULL,
+   sub_code  varchar(20) NOT NULL,
+   sub_name  varchar(100) ,
+   sub_tech  varchar(20) COMMENT '教师代码',
+   sub_score  smallint(10) ,
+   stat_date  date ,
+  PRIMARY KEY  ( stud_code , sub_code )
+) ;
