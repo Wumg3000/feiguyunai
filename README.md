@@ -1,9 +1,11 @@
-##
-[《Python深度学习基于PyTorch（第2版）》](https://github.com/Wumg3000/feiguyunai/tree/main/Embedding-
-Transformer)
+## 《Python深度学习基于PyTorch（第2版）》
+
+[Python-DL-
+PyTorch2](https://github.com/Wumg3000/feiguyunai/tree/main/Embedding-
+Transformer)  
 [本书代码及数据下载百度盘](https://pan.baidu.com/s/11yk8UleP3zbukfyqUaGTGg)
 提取码:w42f
-包括代码+数据+PPT文档等，大小约：3G
+包括代码+数据+PPT文档等，大小约：3G  
 
 [本书电子文档及相关资料](http://www.feiguyunai.com/)
 
@@ -12,16 +14,22 @@ Transformer)
 本书分为三部分，共19章，第一部分为PyTorch基础，第二部分为深度学习基本原理，第三部分是实战内容。
 ###
 第一部分（第1-4章）为PyTorch基础：
-第一部分（第1~4章）为Python和PyTorch基础部分，也是本书的基础部分，为后续学习打下一个坚实基础。第1章介绍Python和PyTorch的基石NumPy；第2章介绍PyTorch基础；第3、4章分别介绍PyTorch构建神经网络工具箱和数据处理工具箱等内容。
+第1~4章 为Python和PyTorch基础部分，也是本书的基础部分，为后续学习打下一个坚实基础。
+-
+第1章介绍Python和PyTorch的基石NumPy；
+- 第2章介绍PyTorch基础；
+-
+第3、4章分别介绍PyTorch构建神经网络工具箱和数据处理工具箱等内容。
+
 ### 第二部分（第5-10章）深度学习基本原理：
 第二部分（第5~10章）为机器学习、深度学习部分，这是本书核心部分 
-###
-第三部分（第11-19章）为实战内容：
-（第11~19章）为深度学习实战，也即前面两部分的具体应用部分。这部分在介绍相关原理、架构的基础上，用PyTorch具体实现多个深度学习的典型实例，最后介绍了强化学习、深度强化学习等内容。
 
-##
-[《Python深度学习基于TensorFlow（第2版）》](https://github.com/Wumg3000/feiguyunai/tree/main/Python-
-DL-TensorFlow2)
+### 第三部分（第11-19章）为实战内容：
+（第11~19章）为深度学习实战，也即前面两部分的具体应用部分。这部分在介绍相关原理、架构的基础上，用PyTorch具体实现多个深度学习的典型实例，最后介绍了强化学习、深度强化学习等内容。
+## Python深度学习基于TensorFlow（第2版）》
+[Python-DL-
+TensorFlow2](https://github.com/Wumg3000/feiguyunai/tree/main/Python-DL-
+TensorFlow2)  
 *[本书代码及数据下载百度盘](https://pan.baidu.com/s/1ic1KkfhMd0WsD3qcFPwe4g)
 提取码:xscp
 文件大小约：1.3G
@@ -31,26 +39,33 @@ DL-TensorFlow2)
 ## 本书主题内容
 本书共20章，按照“基础到实践”的顺序展开，分为四个部分。  
 ### 第一部分（第1-5章）为Python和TensorFlow基础部分：
+
 -
 第1章介绍Python和TensorFlow的基石NumPy；
 - 第2章介绍TensorFlow基础；
 -
-第3、4、5章介绍TensorFlow构建模型、数据处理及可视化等内容。  
+第3、4、5章介绍TensorFlow构建模型、数据处理及可视化等内容。 
+
 ### 第二部分（第6-12章）为深度学习基础部分：
+
 -
 第6章为机器学习基础，也是深度学习基础，其中包含很多机器学习经典理论和算法；
 - 第7章介绍深度学习基础的基础——神经网络；
 -
-第8~12章分别从视觉处理、自然语言处理基础、注意力机制、目标检测和生成式深度学习等方面进行说明。  
+第8~12章分别从视觉处理、自然语言处理基础、注意力机制、目标检测和生成式深度学习等方面进行说明。 
+
 ### 第三部分（第13-18章）为深度学习实践部分：
 通过实例把理论与实践相结合，同时实现理论理解的进一步提升。具体包括风格迁移、目标检测实例、人脸检测与识别、光学字符识别、人机对话和利用Transformer处理图像等方面的实例。
 ### 第四部分（第19-20章）为强化学习内容：
+
 - 第19章介绍强化学习基础，
 - 第20章为强化学习实践内容。
 
 ##
-[《深入浅出Embedding原理解析与应用实践》](https://github.com/Wumg3000/feiguyunai/tree/main/Embedding-
-Transformer)
+《深入浅出Embedding原理解析与应用实践》
+[Embedding-
+Transformer](https://github.com/Wumg3000/feiguyunai/tree/main/Embedding-
+Transformer)  
 [本书代码及数据下载百度盘](https://pan.baidu.com/s/16GshDba7upM08fezUxFQGA)
 提取码:lyl0 包括代码+数据等，大小约：3G
 
@@ -59,16 +74,18 @@ Transformer)
 ## 本书主题内容
 本书分为两部分，共16章。第一部分介绍相关技术的基础知识，第二部分运行这些技术解决实际问题的实例。
 
-### 第一部分（第1-9章）基础知识：
+## 第一部分（第1-9章）基础知识
 重点介绍了Embedding的发展历史及最新应用，对各种预训练模型涉及的基础知识做了详解说明，如语言模型、迁移学习、注意力机制等。
 -
 第1章说明万物皆可Embedding；
 - 第2章说明如何获取Embedding；
 - 第3、4章分别介绍视觉处理、文本处理方面的基础知识；
+-
 第5章为本书重点，介绍了多种注意力机制；
--  第6、7、8章介绍了ELMo、BERT、GPT、XLNet等多种预训练模型；
--  第9章介绍了推荐排序系统。
+- 第6、7、8章介绍了ELMo、BERT、GPT、XLNet等多种预训练模型；
+- 第9章介绍了推荐排序系统。
 ### 第二部分（第10-16章）实例：
+
 以实例为主，介绍了Embedding的多种应用，使用新技术解决NLP方面的一些任务。 
 -
 第10章使用Embedding处理机器学习中的分类特征；
@@ -79,16 +96,17 @@ Transformer)
 第15章使用GPT-2实现文本生成；
 - 第16章Embedding技术展望总结。
 
-## [《Python入门到人工智能实战》](https://github.com/Wumg3000/feiguyunai/tree/main/Python-
-From-Base-To-AI)
+## Python入门到人工智能实战》
+[Python-From-
+Base-To-AI](https://github.com/Wumg3000/feiguyunai/tree/main/Python-From-Base-
+To-AI)  
 [本书代码及数据下载百度盘](https://pan.baidu.com/s/1Lfk4CItAfHroR-XsOnhAIA)
 提取码:afmu
-包括代码+数据+PPT文档等，大小约：500M  
+包括代码+数据+PPT文档等，大小约：500M    
 [本书电子文档及相关资料](http://www.feiguyunai.com/)
-
-##
-本书主题内容
+## 本书主题内容
 本书分为两部分，共20章，第一部分为Python基础，第二部分为人工智能基础。
+
 ## 第一部分（第1~11章）为Python基础部分
 这部分也本书的基础，为后续章节的学习打下一个坚实基础。
 - 第1章介绍Python的安装与配置；
@@ -103,6 +121,7 @@ From-Base-To-AI)
 
 ##
 第二部分（第12~20章）为人工智能基础部分 
+
 这是本书核心部分，包括机器学习常用算法、机器学习一般流程、神经网络和两种最好学深度学习框架等内容。
 -
 第12章为机器学习基础，也是深度学习基础，其中包含很多机器学习经典理论、算法和方法等内容；

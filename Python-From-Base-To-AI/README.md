@@ -1,12 +1,14 @@
 # 《Python入门到人工智能实战》
-[本书代码及数据下载百度盘](https://pan.baidu.com/s/1Lfk4CItAfHroR-
-XsOnhAIA)
+[Python-From-Base-To-
+AI](https://github.com/Wumg3000/feiguyunai/tree/main/Python-From-Base-To-AI)
+[本书代码及数据下载百度盘](https://pan.baidu.com/s/1Lfk4CItAfHroR-XsOnhAIA)   
 提取码:afmu
 包括代码+数据+PPT文档等，大小约：500M
 [本书电子文档及相关资料](http://www.feiguyunai.com/)
 
 ## 本书主题内容
 本书分为两部分，共20章，第一部分为Python基础，第二部分为人工智能基础。
+
 ## 第一部分（第1~11章）为Python基础部分
 这部分也本书的基础，为后续章节的学习打下一个坚实基础。
 - 第1章介绍Python的安装与配置；
@@ -19,7 +21,8 @@ XsOnhAIA)
 - 第9、10章分别介绍了科学计算的神器NumPy、善于数据处理的Pandas；
 - 第11章介绍如何实现数据可视化。
 ##
-第二部分（第12~20章）为人工智能基础部分，
+第二部分（第12~20章）为人工智能基础部分
+
 这是本书核心部分，包括机器学习常用算法、机器学习一般流程、神经网络和两种最好学深度学习框架等内容。
 -
 第12章为机器学习基础，也是深度学习基础，其中包含很多机器学习经典理论、算法和方法等内容；
