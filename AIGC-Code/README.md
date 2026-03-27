@@ -1,7 +1,7 @@
 # 《AIGC原理与实践》
 ###        ---零基础学大语言模型、扩散模型和多模态模型
-[本书代码及数据下载百度盘](https://pan.baidu.com/s/11yk8UleP3zbukfyqUaGTGg)
-提取码:w42f
+[本书代码及数据下载百度盘](https://pan.baidu.com/s/1x8YS1uiGsmTuNxbiWSE6MA)
+提取码:k127
 包括代码+数据+PPT文档等，大小约：3G
 
 [本书电子文档及相关资料](http://www.feiguyunai.com/)
